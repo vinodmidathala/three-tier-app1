@@ -15,7 +15,7 @@ spec:
     spec: 
       containers:
       - name: mon
-        image: vinodkumar97/myapp:17511813973
+        image: mongo:4.4.6
         command:
             - "numactl"
             - "--interleave=all"
