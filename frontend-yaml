@@ -22,8 +22,6 @@ spec:
       labels:
         role: frontend
     spec:
-      imagePullSecrets:
-        - name: ecr-registry-secret
       containers:
         - name: frontend
           image: ghcr.io/ameerthehacker/todo-frontend:latest
